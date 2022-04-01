@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /eyesi
+
+Host: http://ah-insurance.com.tm
+Sitemap: http://ah-insurance.com.tm/sitemap.xml

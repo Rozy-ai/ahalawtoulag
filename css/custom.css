@@ -1,0 +1,277 @@
+/* here you can put your own css to customize and override the theme */
+
+
+/*begin header */
+.site-logo span{
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    float: right;
+    text-transform: uppercase;
+}
+.site-logo2022 span{
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    float: right;
+    text-transform: uppercase;
+}
+.pre-header{
+
+}
+
+/*end header*/
+
+
+.linesmart{
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  background-color: green;
+  animation:smart 0.5s linear 1 normal;
+  height: 2px;
+  width: 100%; 
+}
+
+@-webkit-keyframes smart{
+  from{
+    
+    width: 0px;
+    
+  }
+  
+  to{
+    
+    width: 100%;
+  }
+}
+
+.box-tomi{
+ 
+  animation: tomi .5s linear 4.5s 1 normal, tomi-2 4.5s linear 1 normal;
+}
+@-webkit-keyframes tomi{
+  from{
+    position: absolute;
+    left: -100px;
+    width: 255px;
+    opacity: 1;
+  }
+  
+  to{
+    position: relative;
+    left: 0;
+    width: 255px;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes tomi-2{
+  from{
+    opacity: 0;
+  }
+  
+  to{
+    opacity: 0;
+  }
+}
+.box-tomi .process-btn{
+  border-bottom: solid 1px #4eb2f7;
+}
+
+.box-koimana{
+
+  animation: koimana 1s linear 3.5s 1 normal, koimana-2 3.5s linear 1 normal;
+}
+.box-koimana .process-btn{
+  border-bottom: solid 1px #c049f8;
+}
+@-webkit-keyframes koimana{
+  from{
+    position: absolute;
+    left: -370px;
+    width: 255px;
+  }
+  
+  to{
+    position: relative;
+    left: 0;
+    width: 255px;
+  }
+}
+@-webkit-keyframes koimana-2{
+  from{
+    opacity: 0;
+  }
+  
+  to{
+    opacity: 0;
+  }
+}
+.box-koire{
+
+  animation: koire 1.5s linear 2s 1 normal, koire-2 2s linear 1 normal;
+}
+.box-koire .process-btn{
+  border-bottom: solid 1px #817eff;
+}
+@-webkit-keyframes koire{
+  from{
+    position: absolute;
+    left: -640px;
+    width: 255px;
+  }
+  
+  to{
+    position: relative;
+    left: 0;
+    width: 255px;
+  }
+}
+@-webkit-keyframes koire-2{
+  from{
+    opacity: 0;
+  }
+  
+  to{
+    opacity: 0;
+  }
+}
+.box-lara{
+
+  animation: lara 2s linear 1 normal;
+}
+.box-lara .process-btn{
+  border-bottom: solid 1px #f74770;
+}
+@-webkit-keyframes lara{
+  from{
+    position: absolute;
+    left: -910px;
+    width: 255px;
+  }
+  
+  to{
+    position: relative;
+    left: 0;
+    width: 255px;
+  }
+}
+.line{
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -ms-border-radius:5px;
+  -o-border-radius:5px;
+  border-radius: 5px;
+  display: block;
+  width: 30px;
+  height: 4px;
+  background-color: #706b73;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-2px);
+  -ms-transform: translateY(-2px);
+  -o-transform: translateY(-2px);
+  transform: translateY(-2px);
+}
+.line:before{
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -ms-border-radius:5px;
+  -o-border-radius:5px;
+  border-radius: 5px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  background-color: #706b73;
+  -webkit-transform: translateY(-8px);
+  -ms-transform: translateY(-8px);
+  -o-transform: translateY(-8px);
+  transform: translateY(-8px);
+  content: '';
+  width: 30px;
+  height: 4px;
+  transform-color: #706b73;
+}
+.line:after{
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -ms-border-radius:5px;
+  -o-border-radius:5px;
+  border-radius: 5px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  background-color: #706b73;
+  -webkit-transform: translateY(4px);
+  -ms-transform: translateY(4px);
+  -o-transform: translateY(4px);
+  transform: translateY(4px);
+  content: '';
+  width: 30px;
+  height: 4px;
+  transform-color: #706b73;
+}
+/*Krestik*/
+/*.main-nav-bar:hover .line:before{
+  
+    -webkit-transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg);
+    -o-transform:rotate(-45deg);
+    transform:rotate(-45deg); 
+}
+.main-nav-bar:hover .line{
+  height: 0;
+}
+.main-nav-bar:hover .line:after{
+  
+    -webkit-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    transform:rotate(45deg);  
+}*/
+/*End Krestik*/
+.carousel:focus{
+  outline: none!important;
+}
+.carousel-indicators li{
+  width: 16px!important;
+  border-radius: 10px!important;
+}
+.carousel-indicators .active{
+  width: 17px!important;
+  border-radius: 10px!important;
+}
+.carousel-control:focus, .carousel-control:hover{
+  background-image: none!important;
+}
+.carousel-control{
+   background-image: none!important;
+}
+.carousel-inner img{
+  height: 80vh!important; 
+  width: 80vw;
+  margin: 0 auto;
+}
+.carousel-control{
+/*  left: 6vw!important;*/
+}
+.carousel-control .glyphicon-chevron-left{
+  left: 13vw;
+}
+.carousel-control .glyphicon-chevron-right{
+  right: 13vw;
+}
+.item:focus{
+  outline: none!important;
+}
